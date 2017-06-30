@@ -155,7 +155,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\DirectedAcyclicGraph\Node.cpp" />
+    <ClCompile Include="TestCursor.cpp" />
+    <ClCompile Include="TestGraph.cpp" />
     <ClCompile Include="TestNode.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

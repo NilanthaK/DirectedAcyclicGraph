@@ -139,10 +139,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DirectedAcyclicGraph.cpp" />
-    <ClCompile Include="Node.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h" />
+    <ClInclude Include="Cursor.hpp" />
+    <ClInclude Include="Graph.hpp" />
+    <ClInclude Include="Node.hpp" />
+    <ClInclude Include="PayLoad.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
